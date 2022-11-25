@@ -6,6 +6,8 @@ Author: C. Walker
 Currently, this library can take an input .vex file and output a dictionary of
 information about each scan within the observation of the .vex file.
 
+On Charlie's machine, this git repo is stored at /Users/c.walker/LOFTe_parseVex/
+
 # REQUIREMENTS:
 - numpy
 - astropy
