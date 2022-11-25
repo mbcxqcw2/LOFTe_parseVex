@@ -13,8 +13,9 @@ On Charlie's machine, this git repo is stored at /Users/c.walker/LOFTe_parseVex/
 - astropy
 
 # TO USE:
-
+After git cloning this repository and adding it to your python path do:
 ```
+>from LOFTe_parseVex_lib import parse_vex, get_vex_sched
 >vex_data = parse_vex(<vexfile>)
 >schedule_info = get_vex_sched(vex_data)
 ```
