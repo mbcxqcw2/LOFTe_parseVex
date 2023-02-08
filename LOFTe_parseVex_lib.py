@@ -7,7 +7,7 @@ def parse_vex(vexfile,verbose=False):
     
     INPUTS:
     
-    vexfile : [str] .vex file name and location
+    vexfile : [str] .vex file name and location (e.g. './cy13002.vex')
     verbose : [Boolean] Option to output information for
               debugging. Default == False
     
@@ -27,7 +27,7 @@ def parse_vex(vexfile,verbose=False):
     ###################
     
     #Load the vex file as an array of lines
-    with open('cy13002.vex') as f:
+    with open(vexfile) as f:
         lines = f.readlines()
     lines = np.array(lines)
     
